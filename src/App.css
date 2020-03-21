@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.typewriter {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.typewriter__type {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 28px;
+}
+
+.typewriter__cursor {
+  width: 1px;
+  background-color: #363636;
+}
