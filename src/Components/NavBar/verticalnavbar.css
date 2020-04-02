@@ -1,0 +1,31 @@
+.container-1 {
+  width: 6rem;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+img.icon1,
+img.icon2,
+img.icon3 {
+  left: 2.8rem;
+  position: fixed;
+  height: 2rem;
+  bottom: 13rem;
+}
+img.icon2 {
+  bottom: 10rem;
+}
+img.icon3 {
+  bottom: 7rem;
+}
+#vertical-line {
+  bottom: 0;
+  border-left: 2px solid #c1c0c0;
+  height: 6rem;
+  position: absolute;
+  left: 60%;
+}
