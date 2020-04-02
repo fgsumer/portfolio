@@ -1,0 +1,16 @@
+.typewriter {
+  display: flex;
+  justify-content: left;
+  margin: 25px 0;
+  color: #b64332;
+}
+
+.typewriter__type {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 28px;
+}
+
+.typewriter__cursor {
+  width: 1px;
+  background-color: #bd5432;
+}

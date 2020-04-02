@@ -1,0 +1,22 @@
+.container {
+  background-image: url(/images-icons/typewriter2.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  width: 100%;
+  height: 100vh;
+  color: #c1c0c0;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.1rem;
+}
+.container-2 {
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+
+h1 {
+  color: #c1c0c0;
+}
+h3 {
+  color: #c1c0c0;
+}
