@@ -1,6 +1,8 @@
 import React from 'react';
+import './typewriter.css';
 
 const options = ['junior front-end developer', 'cat mum', 'jigsaw puzzle enthusiast'];
+
 class TypeWriter extends React.Component {
   constructor(props) {
     super(props);
@@ -32,11 +34,11 @@ class TypeWriter extends React.Component {
         this.setState({ text: target.substr(0, charCount) }, () => {
           if (charCount === target.length) {
             clearInterval(this.timer);
-            setTimeout(() => this.hide(target), 2500);
+            setTimeout(() => this.hide(target), 2000);
           }
           charCount++;
         });
-    }, 250);
+    }, 200);
   }
 
   hide(target) {
@@ -48,11 +50,11 @@ class TypeWriter extends React.Component {
             clearInterval(this.timer);
             let currentItemIndex = this.state.currentItemIndex + 1;
             if (currentItemIndex === options.length) currentItemIndex = 0;
-            setTimeout(() => this.type(currentItemIndex), 1000);
+            setTimeout(() => this.type(currentItemIndex), 500);
           }
           charCount--;
         });
-    }, 250);
+    }, 150);
   }
 
   componentWillUnmount() {
