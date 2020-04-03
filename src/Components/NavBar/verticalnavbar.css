@@ -1,7 +1,6 @@
 .container-1 {
-  width: 6rem;
-  position: fixed;
-  z-index: 1;
+  width: 7rem;
+  position: absolute;
   bottom: 0;
   left: 0;
   height: 100%;
@@ -10,22 +9,28 @@
 
 img.icon1,
 img.icon2,
-img.icon3 {
+img.icon3,
+img.icon4 {
   left: 2.8rem;
   position: fixed;
-  height: 2rem;
-  bottom: 13rem;
+  height: 1.7rem;
+  bottom: 11rem;
+  z-index: 2;
 }
 img.icon2 {
-  bottom: 10rem;
+  bottom: 8.5rem;
 }
 img.icon3 {
-  bottom: 7rem;
+  bottom: 6rem;
+}
+img.icon4 {
+  bottom: 3.5rem;
 }
 #vertical-line {
   bottom: 0;
   border-left: 2px solid #c1c0c0;
-  height: 6rem;
-  position: absolute;
-  left: 60%;
+  height: 3rem;
+  position: fixed;
+  left: 3.4rem;
+  z-index: 2;
 }

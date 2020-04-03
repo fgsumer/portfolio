@@ -14,7 +14,9 @@ function VerticalNavBar() {
       <a href="https://twitter.com/fatmaagocen">
         <img className="icon3" src="/images-icons/twitter.png" alt="twitter icon"></img>
       </a>
-
+      <a href="https://https://codepen.io/fsumer">
+        <img className="icon4" src="/images-icons/codepen.svg" alt="twitter icon"></img>
+      </a>
       <div id="vertical-line"></div>
     </div>
   );
