@@ -6,7 +6,8 @@
 }
 
 .typewriter__type {
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Merriweather', serif;
   font-size: 28px;
 }
 
