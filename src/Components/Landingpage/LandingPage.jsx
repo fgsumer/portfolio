@@ -5,19 +5,19 @@ import TypeWriter from './TypeWriter';
 import AboutMe from '../AboutMe/AboutMe';
 import VerticalNavBar from '../NavBar/VerticalNavBar';
 
-import './landingpage.css';
+import styles from './landingpage.module.css';
 
 function LandingPage() {
   return (
     <>
-      <div className="container">
+      <div className={styles.container}>
         <NavBar></NavBar>
-        <div className="container-2">
+        <div className={styles.container2}>
           <h4>Hi, my name is </h4>
           <h1>Fatma Sümer</h1>
           <TypeWriter />
           <br></br>
-          <h3> & I love building things for the web.</h3>
+          <h3> &#38; I love building things for the web.</h3>
           <VerticalNavBar></VerticalNavBar>
         </div>
       </div>

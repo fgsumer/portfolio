@@ -1,5 +1,5 @@
 import React from 'react';
-import './typewriter.css';
+import styles from './typewriter.module.css';
 
 const options = ['junior front-end developer', 'cat mum', 'jigsaw puzzle enthusiast'];
 
@@ -64,9 +64,11 @@ class TypeWriter extends React.Component {
 
   render() {
     return (
-      <div className="typewriter">
-        <div className="typewriter__type"> I am &lt;{this.state.text}</div>
-        <div className=" typewriter__type typewriter__cursor">&gt;</div>
+      <div className={styles.typewriter}>
+        <div className={styles.typewriter__type}> I am &lt;{this.state.text}</div>
+        <div className={styles.typewriter__cursor}>
+          <span className={styles.typewriter__type}>&gt;</span>
+        </div>
       </div>
     );
   }

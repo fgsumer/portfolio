@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import './navbar.css';
+import styles from './navbar.module.css';
 
 class NavBar extends Component {
   constructor(props) {
@@ -19,21 +19,20 @@ class NavBar extends Component {
   render() {
     const { isExpanded } = this.state;
     return (
-      <div className="navigation">
-        <div className="logo">
+      <div className={styles.navigation}>
+        <div className={styles.logo}>
           <Link to="/">Fatma Sümer Logo</Link>
         </div>
-        <nav className="nav">
-          {/* put burger icon */}
+        <nav className={styles.nav}>
           <img
-            className="menu"
+            className={styles.menu}
             aria-hidden="true"
             onClick={e => this.handleToggle(e)}
             src="/images-icons/menu.svg"
             alt="icon"
           ></img>
 
-          <ul className={`collapsed ${isExpanded ? 'is-expanded' : ''}`}>
+          <ul className={`styles.collapsed ${isExpanded ? 'styles.is-expanded' : ''}`}>
             <NavLink to="/aboutme">
               <li>About Me</li>
             </NavLink>

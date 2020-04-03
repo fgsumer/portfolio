@@ -1,5 +1,5 @@
-.container-1 {
-  width: 7rem;
+.container1 {
+  width: 12rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -26,7 +26,7 @@ img.icon3 {
 img.icon4 {
   bottom: 3.5rem;
 }
-#vertical-line {
+#verticalline {
   bottom: 0;
   border-left: 2px solid #c1c0c0;
   height: 3rem;
