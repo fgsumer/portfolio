@@ -1,9 +1,9 @@
 import React from 'react';
-import './aboutme.css';
+import styles from './aboutme.module.css';
 
 const AboutMe = () => (
-  <div className="container-3">
-    <h1 style={{ paddingTop: '25px' }}>About Me</h1>
+  <div className={styles.container3}>
+    <h3>About Me</h3>
   </div>
 );
 
