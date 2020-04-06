@@ -1,0 +1,41 @@
+/* _________project container  */
+/* .maincontainer:nth-child(even) > .projectcontainer {
+  box-sizing: border-box;
+  width: 100%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* .projectcontainer {
+  box-sizing: border-box;
+  width: 100%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* .maincontainer:nth-child(even) > .projectcontainer > .image {
+  width: 50%;
+  margin-right: 5rem;
+  float: right;
+} */
+
+.projectPhoto {
+  width: 50%;
+  margin-top: 6rem;
+  position: relative;
+  margin-left: 4rem;
+}
+
+/* .maincontainer:nth-child(even) > .projectcontainer > .nameDescContainer {
+  margin-left: 4rem;
+  text-align: left;
+} */
+/* .technology {
+  background-color: red;
+  display: inline;
+} */
+/* .linkIcon {
+  margin-top: 2rem;
+} */
