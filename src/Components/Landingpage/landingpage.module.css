@@ -3,8 +3,9 @@
   padding: 0;
   overflow-y: scroll;
 } */
+
 .container {
-  background-image: url(/images-icons/typewriter2.jpg);
+  /* background-image: url(/images-icons/typewriter2.jpg); */
   background-position: center;
   background-size: cover;
   opacity: 0.9;
@@ -15,7 +16,7 @@
   color: #c1c0c0;
   font-family: 'Merriweather', serif;
 }
-.container ::before {
+/* .container ::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -29,19 +30,23 @@
     rgba(0, 0, 0, 0.5) 95%,
     rgba(0, 0, 0, 0.6) 100%
   );
-}
+} */
 .container2 {
-  padding-left: 12rem;
-  padding-top: 5rem;
+  /* padding-left: 10rem;
+  padding-top: 5rem; */
+  margin-left: 9rem;
+  margin-top: 5rem;
+  border: 3px solid pink;
+  height: 60%;
 }
 
-h1 {
+.h1 {
   color: #c1c0c0;
   font-family: 'Permanent Marker', cursive;
   font-size: 3rem;
   letter-spacing: 0.2rem;
 }
-h3 {
+.h3 {
   color: #c1c0c0;
   padding-top: 0;
   margin-top: 0;

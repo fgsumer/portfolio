@@ -1,0 +1,26 @@
+.maincontainer {
+  background-color: #18181a;
+  margin-top: 2rem;
+  margin-left: 9rem;
+  border: 3px solid pink;
+}
+.project {
+  border: 3px solid yellow;
+}
+
+.nameDescription {
+  border: 3px solid green;
+  width: 50%;
+}
+
+.projectPhoto {
+  width: 50%;
+  /* float: right; */
+}
+.framework {
+  border: 3px solid red;
+}
+
+.framework:nth-of-type(2) {
+  border: 3px solid slateblue;
+}

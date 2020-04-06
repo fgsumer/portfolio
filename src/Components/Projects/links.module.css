@@ -1,0 +1,11 @@
+.a {
+  background-repeat: no-repeat;
+  color: red;
+  height: 2rem;
+  margin-top: 1rem;
+  display: inline;
+}
+.b {
+  color: blue;
+  display: inline;
+}
