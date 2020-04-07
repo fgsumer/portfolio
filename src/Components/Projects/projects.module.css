@@ -1,3 +1,4 @@
+
 .maincontainer {
   background-color: #18181a;
   margin-top: 2rem;
@@ -71,4 +72,5 @@
 .projectPhoto {
   width: 100%;
   grid-column: 6 / 11;
-} */
+
+} 
