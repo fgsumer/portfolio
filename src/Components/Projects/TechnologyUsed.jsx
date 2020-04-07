@@ -1,11 +1,13 @@
 import React from 'react';
+import styles from './projects.module.css';
 
 const TechnologyUsed = props => (
-  <div style={{ color: 'yellow' }}>
-    <h3>Technology Used</h3>
+  <div>
     {props.data.map((item, key) => (
       <>
-        <li key={key}>{item}</li>
+        <li className={styles.technology} key={key}>
+          {item}
+        </li>
       </>
     ))}
   </div>
