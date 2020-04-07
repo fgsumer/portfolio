@@ -1,6 +1,6 @@
 import React from 'react';
-
 import styles from './links.module.css';
+
 const Links = props => {
   return (
     <div>

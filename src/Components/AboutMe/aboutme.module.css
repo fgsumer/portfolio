@@ -1,12 +1,10 @@
-.container3 {
-  width: 100%;
+body {
+  background-color: #18181a;
+}
+.container {
   height: 100vh;
   background-color: #18181a;
-  padding-left: 12rem;
-  /* background-color: black; */
-}
-h1 {
-  z-index: -10;
-  margin: 0;
-  padding: 0;
+  margin-top: 2rem;
+  margin-left: 9rem;
+  border: 3px solid pink;
 }
