@@ -3,10 +3,10 @@
   margin-top: 2rem;
   margin-left: 11rem;
   margin-right: 5rem;
-  /* border: 3px solid pink; */
+  border: 3px solid pink;
 }
 .project {
-  /* border: 3px solid yellow; */
+  border: 3px solid yellow;
   padding-top: 2rem;
   display: grid;
   height: 80vh;
@@ -80,4 +80,13 @@
 .linkIcon:hover {
   background-color: yellow;
   border-radius: 50%;
+}
+.flexContainer {
+  background-color: #18181a;
+  margin: 2rem 5rem 2rem 11rem;
+  /* border: 3px solid pink; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
 }
