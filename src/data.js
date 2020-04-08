@@ -1,4 +1,4 @@
-const data = [
+export const data = [
   {
     name: 'GitPro',
     description:
@@ -33,5 +33,54 @@ const data = [
     },
   },
 ];
-
-export default data;
+export const data2 = [
+  {
+    name: 'parallax',
+    description:
+      'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    technologyUsed: ['html', 'css'],
+    link: {
+      github: 'https://github.com/fgsumer/FontpairswithParallax',
+      live: 'https://fgsumer.github.io/FontpairswithParallax/',
+    },
+  },
+  {
+    name: 'tictactoe',
+    description:
+      'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    technologyUsed: ['html', 'css'],
+    link: {
+      github: 'https://github.com/fgsumer/FontpairswithParallax',
+      live: 'https://fgsumer.github.io/FontpairswithParallax/',
+    },
+  },
+  {
+    name: 'parallax',
+    description:
+      'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    technologyUsed: ['html', 'css'],
+    link: {
+      github: 'https://github.com/fgsumer/FontpairswithParallax',
+      live: 'https://fgsumer.github.io/FontpairswithParallax/',
+    },
+  },
+  {
+    name: 'tictactoe',
+    description:
+      'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    technologyUsed: ['html', 'css'],
+    link: {
+      github: 'https://github.com/fgsumer/FontpairswithParallax',
+      live: 'https://fgsumer.github.io/FontpairswithParallax/',
+    },
+  },
+  {
+    name: 'parallax',
+    description:
+      'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    technologyUsed: ['html', 'css'],
+    link: {
+      github: 'https://github.com/fgsumer/FontpairswithParallax',
+    },
+  },
+];
