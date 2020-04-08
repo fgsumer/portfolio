@@ -1,19 +1,20 @@
 import React from 'react';
-import styles from './links.module.css';
+
+import styles from './projects.module.css';
 
 const Links = props => {
   return (
     <div>
-      <h3 className={styles.a}>Links</h3>
       {Object.entries(props.data).map(item =>
         item[0] === 'github' ? (
-          <li className={styles.a}>
-            <a href={item[1]}>{item[0]}</a>
-          </li>
+          <a href={item[1]}>
+            {' '}
+            <img className={styles.linkIcon} src="./images-icons/github.svg" alt="github icon" />
+          </a>
         ) : (
-          <li className={styles.b}>
-            <a href={item[1]}>{item[0]}</a>
-          </li>
+          <a href={item[1]}>
+            <img className={styles.linkIcon} src="./images-icons/link.png" alt="" />
+          </a>
         ),
       )}
     </div>

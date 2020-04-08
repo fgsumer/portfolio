@@ -20,7 +20,9 @@ const Project = () => (
         <div className={styles.technology}>
           <TechnologyUsed data={d.technologyUsed}></TechnologyUsed>
         </div>
-        {/* <Links data={d.link}></Links> */}
+        <div className={styles.projectLinks}>
+          <Links data={d.link}></Links>
+        </div>
       </div>
     ))}
   </div>
