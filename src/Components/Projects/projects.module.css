@@ -3,10 +3,10 @@
   margin-top: 2rem;
   margin-left: 11rem;
   margin-right: 5rem;
-  border: 3px solid pink;
+  /* border: 3px solid pink; */
 }
 .project {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   padding-top: 2rem;
   display: grid;
   height: 80vh;
