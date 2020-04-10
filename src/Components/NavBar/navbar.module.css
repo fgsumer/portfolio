@@ -1,19 +1,13 @@
-#navbar {
-  /* Black background color */
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-}
+/* z */
 
 /* Style the navbar links */
 #navbar a {
-  float: right;
+  /* float: right; */
   /* display: block; */
   /* color: white; */
-  text-align: center;
+  /* text-align: center;
   padding: 15px;
-  text-decoration: none;
+  text-decoration: none; */
 }
 
 #navbar a:hover {
@@ -24,49 +18,62 @@
 
 .navigation {
   width: 100%;
-  /* border-bottom: 10px solid #222; */
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
-  height: 140px;
+  height: 7rem;
   color: whitesmoke;
 }
-.logo a {
-  padding-top: 33px;
+.logo {
+  padding-top: 3rem;
   padding-right: 0;
-  /* display: flex; */
-  flex-direction: column;
-  clear: both;
-  padding-bottom: 30px;
+  display: flex;
   text-decoration: none;
   color: whitesmoke;
 }
-.menu {
+.menuItem {
   display: none;
-  font-size: 2rem;
 }
 
 ul {
+  padding-right: 5rem;
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+  /* border: 3px solid pink; */
 }
 
-li {
-  margin: 0 15px;
+.li {
+  margin: 0 25px;
   justify-content: space-between;
   font-size: 1em;
   color: aliceblue;
 }
 a {
-  font-size: 1em;
+  color: #fff;
   text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
-a.active {
-  color: whitesmoke;
-}
 @media only screen and (max-width: 800px) {
   /* padding: 0px; */
   .logo {
@@ -88,7 +95,7 @@ a.active {
     margin: 0px;
     margin-left: -5px;
   }
-  .menu {
+  .menuItem {
     display: inline-block;
     position: absolute;
     top: 10px;
@@ -101,7 +108,6 @@ a.active {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-
     overflow: hidden;
     max-height: 0;
     -moz-transition-duration: 0.4s;
