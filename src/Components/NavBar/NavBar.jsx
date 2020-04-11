@@ -3,6 +3,8 @@ import { NavLink, Link } from 'react-router-dom';
 import styles from './navbar.module.css';
 import styled from 'styled-components';
 
+import resume from '../../assests/resume.pdf';
+
 const Navigation = styled.header`
   a {
     color: #fff;
@@ -102,6 +104,9 @@ class NavBar extends Component {
               <NavLink to="/projects">
                 <li className={styles.li}>Contact</li>
               </NavLink>
+              <a href={resume} target="_blank" onClick={() => window.open(resume)}>
+                <li className={styles.li}>Resume</li>
+              </a>
             </ul>
           </nav>
         </div>
