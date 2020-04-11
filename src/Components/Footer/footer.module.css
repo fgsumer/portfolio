@@ -1,0 +1,17 @@
+.p1 {
+  color: red;
+}
+.footerContainer {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    display: inline;
+    border: 3px solid blue;
+    width: 100%;
+  }
+  .icon {
+    height: 2rem;
+    text-align: center;
+  }
+}
