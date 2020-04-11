@@ -11,15 +11,18 @@ import OtherProjects from './OtherProjects.jsx';
 const Project = () => (
   <>
     <div className={styles.maincontainer}>
-      <h1>Some Things I've built</h1>
+      <hr className={styles.hrText} data-content="Some Things I've built"></hr>
+      {/* <h1>Some Things I've built</h1> */}
       {data.map((d, key) => (
         <div className={styles.project}>
           <div className={styles.nameDescription}>
             <h1 key={key}>{d.name}</h1>
             <p>{d.description}</p>
           </div>
+          <div className={styles.photowrapper}>
+            <img className={styles.projectPhoto} src={d.projectPhoto} alt="project"></img>
+          </div>
 
-          <img className={styles.projectPhoto} src={d.projectPhoto} alt="project"></img>
           <div className={styles.technology}>
             <TechnologyUsed data={d.technologyUsed}></TechnologyUsed>
           </div>
@@ -30,7 +33,9 @@ const Project = () => (
       ))}
     </div>
 
-    <h1 style={{ textAlign: 'center', marginBottom: '4rem' }}>Other Projects</h1>
+    <h1 style={{ textAlign: 'center', marginBottom: '4rem', fontFamily: 'Montserrat' }}>
+      Other Projects
+    </h1>
     <div className={styles.flexContainer}>
       {data2.map((d, key) => (
         <OtherProjects key={key} data={d}></OtherProjects>

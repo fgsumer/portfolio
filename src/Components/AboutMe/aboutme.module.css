@@ -1,14 +1,12 @@
-body {
-  background-color: #04060f;
-}
 .container {
   height: 80vh;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   margin-left: 11rem;
-  /* border: 3px solid pink; */
 }
 .flexContainer {
+  font-family: 'Montserrat', sans-serif;
   padding-right: 5rem;
+  padding-top: 0;
   display: flex;
 }
 .flexBox {
@@ -36,30 +34,28 @@ body {
   background-image: linear-gradient(0deg, #c1403d 10%, transparent 30%);
 }
 .hrText {
-  font-size: 20px;
+  font-size: 5rem;
   position: relative;
   margin-bottom: 3rem;
   border: 0;
-  height: 1.5em;
+  height: 7rem;
 }
 
 .hrText:before {
   content: '';
   background: linear-gradient(to right, #b2b2b2, transparent);
   position: absolute;
-  margin-left: 0;
-  left: 13rem;
+  left: 14rem;
   top: 50%;
   width: 30%;
-  height: 1px;
+  height: 2px;
 }
 .hrText:after {
+  font-family: 'special elite';
   font-size: 3rem;
   content: attr(data-content);
   position: relative;
   display: inline-block;
-  padding-right: 1rem;
-  line-height: 1.5rem;
+  line-height: 3rem;
   color: #c1403d;
-  /* background-color: #04060f; */
 }

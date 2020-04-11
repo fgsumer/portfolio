@@ -1,10 +1,11 @@
 .projectCard {
+  font-family: 'Montserrat', sans-serif;
   color: #e8e8e9;
   width: 21rem;
   height: 18rem;
   padding: 1rem 0.5rem;
   margin-bottom: 2rem;
-  background-color: #04060f;
+  background-color: #1a1c24;
   border-radius: 2%;
   border: 3px solid #c1403d;
   /* box-shadow: 2px 3px #c1403d; */
