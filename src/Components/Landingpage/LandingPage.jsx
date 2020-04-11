@@ -7,7 +7,7 @@ import VerticalNavBar from '../NavBar/VerticalNavBar';
 import Projects from '../Projects/Projects';
 
 import styles from './landingpage.module.css';
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 
 function LandingPage() {
   return (
@@ -26,7 +26,7 @@ function LandingPage() {
         </div>
         <AboutMe></AboutMe>
         <Projects></Projects>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </div>
     </>
   );
