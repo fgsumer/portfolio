@@ -3,7 +3,7 @@ import styles from './aboutme.module.css';
 
 const AboutMe = () => (
   <div className={styles.container}>
-    <h3 style={{ marginTop: '20rem' }}>About Me</h3>
+    <hr style={{ marginTop: '20rem' }} className={styles.hrText} data-content="About Me"></hr>
     <div className={styles.flexContainer}>
       <div className={styles.flexBox}>
         <p>
