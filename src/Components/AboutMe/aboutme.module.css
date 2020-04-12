@@ -1,12 +1,12 @@
 .container {
-  height: 80vh;
+  height: 90vh;
   /* margin-top: 2rem; */
   margin-left: 11rem;
+  padding-top: 12rem;
 }
 .flexContainer {
   font-family: 'Montserrat', sans-serif;
   padding-right: 5rem;
-  padding-top: 0;
   display: flex;
 }
 .flexBox {
@@ -37,6 +37,7 @@
   font-size: 5rem;
   position: relative;
   margin-bottom: 3rem;
+  margin-top: 0;
   border: 0;
   height: 7rem;
 }
