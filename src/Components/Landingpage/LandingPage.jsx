@@ -21,11 +21,12 @@ function LandingPage() {
           {/* <h3 className={styles.h3}> &#38; I love building things for the web.</h3> */}
           <br></br>
           <TypeWriter />
-
           <VerticalNavBar></VerticalNavBar>
         </div>
         <AboutMe></AboutMe>
         <Projects></Projects>
+        {/*
+         */}
         {/* <Footer></Footer> */}
       </div>
     </>

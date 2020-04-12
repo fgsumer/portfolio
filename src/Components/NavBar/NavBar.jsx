@@ -59,17 +59,52 @@ const Navigation = styled.header`
         max-height: 20rem; /* approximate max height */
       }
     }
+    .active {
+      visibility: visible;
+      transition: all 200ms ease-in;
+    }
+    .hidden {
+      visibility: hidden;
+      transition: all 200ms ease-out;
+      transform: translate(0, -100%);
+    }
   }
 `;
-
+const Transition = styled.div`
+  .active {
+    visibility: visible;
+    transition: all 200ms ease-in;
+  }
+  .hidden {
+    visibility: hidden;
+    transition: all 200ms ease-out;
+    transform: translate(0, -100%);
+  }
+`;
 class NavBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
       isExpanded: false,
+      show: true,
+      scrollPos: 0,
     };
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
   }
 
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+  handleScroll() {
+    const { scrollPos } = this.state;
+    this.setState({
+      scrollPos: document.body.getBoundingClientRect().top,
+      show: document.body.getBoundingClientRect().top > scrollPos,
+    });
+  }
   handleToggle(e) {
     e.preventDefault();
     this.setState({
@@ -79,43 +114,45 @@ class NavBar extends Component {
   render() {
     const { isExpanded } = this.state;
     return (
-      <Navigation>
-        <div className={styles.navigation}>
-          <div className={styles.logo}>
-            <img style={{ height: '4rem' }} src="/images-icons/logo.png" alt="icon"></img>
-            {/* <h1 style={{ fontFamily: 'Permanent Marker' }}>F S</h1> */}
-          </div>
-          <nav className={styles.nav}>
-            <img
-              className={styles.menuItem}
-              aria-hidden="true"
-              onClick={e => this.handleToggle(e)}
-              src="/images-icons/menu.svg"
-              alt="icon"
-            ></img>
+      <Transition>
+        <Navigation className={this.state.show ? 'active' : 'hidden'}>
+          <div className={styles.navigation}>
+            <div className={styles.logo}>
+              <img style={{ height: '4rem' }} src="/images-icons/logo.png" alt="icon"></img>
+              {/* <h1 style={{ fontFamily: 'Permanent Marker' }}>F S</h1> */}
+            </div>
+            <nav className={styles.nav}>
+              <img
+                className={styles.menuItem}
+                aria-hidden="true"
+                onClick={e => this.handleToggle(e)}
+                src="/images-icons/menu.svg"
+                alt="icon"
+              ></img>
 
-            <ul className={`collapsed ${isExpanded ? 'is-expanded' : ''}`}>
-              <a href="#aboutme">
-                <li className={styles.li}>About Me</li>
-              </a>
-              <a href="#projects">
-                <li className={styles.li}>My Projects</li>
-              </a>
-              <a href="#projects">
-                <li className={styles.li}>Contact</li>
-              </a>
-              <a
-                href={resume}
-                target="_blank"
-                onClick={() => window.open(resume)}
-                rel="noopener noreferrer"
-              >
-                <li className={styles.li}>Resume</li>
-              </a>
-            </ul>
-          </nav>
-        </div>
-      </Navigation>
+              <ul className={`collapsed ${isExpanded ? 'is-expanded' : ''}`}>
+                <a href="#aboutme">
+                  <li className={styles.li}>About Me</li>
+                </a>
+                <a href="#projects">
+                  <li className={styles.li}>My Projects</li>
+                </a>
+                <a href="#projects">
+                  <li className={styles.li}>Contact</li>
+                </a>
+                <a
+                  href={resume}
+                  target="_blank"
+                  onClick={() => window.open(resume)}
+                  rel="noopener noreferrer"
+                >
+                  <li className={styles.li}>Resume</li>
+                </a>
+              </ul>
+            </nav>
+          </div>
+        </Navigation>
+      </Transition>
     );
   }
 }

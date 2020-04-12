@@ -34,7 +34,7 @@
 .project:nth-of-type(even) .nameDescription {
   text-align: left;
   padding-left: 1.5rem;
-  grid-column: 1 / 7;
+  grid-column: 1 / 6;
 }
 
 .photowrapper {
@@ -44,12 +44,11 @@
   background: #eabfbe;
   transition: all ease-in-out 0.3s;
   height: 24rem;
+  width: 100%;
 }
 .photowrapper::after {
   content: '';
   position: absolute;
-  width: 100%;
-  height: 100%;
   transition: all ease-in-out 0.3s;
   mix-blend-mode: lighten;
   mix-blend-mode: soft-light;
@@ -75,7 +74,7 @@
   background: transparent;
 }
 .project:nth-of-type(even) .photowrapper {
-  grid-column: 6 / 11;
+  grid-column: 5 / 11;
 }
 
 .technology {
