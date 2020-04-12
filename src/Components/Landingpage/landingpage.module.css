@@ -6,14 +6,15 @@
   opacity: 0.9;
   width: 100%;
   height: 100vh;
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
   color: #e8e8e9;
 }
 
 .container2 {
   margin-left: 11rem;
-  margin-top: 10rem;
+  padding-top: 10rem;
+  /* margin-top: 10rem; */
   height: 60%;
 }
 
@@ -27,6 +28,6 @@
   font-size: 1.5rem;
   /* letter-spacing: 0.06rem; */
 }
-body {
+/* body {
   background-color: #1a1c24;
-}
+} */

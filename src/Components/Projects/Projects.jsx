@@ -1,12 +1,11 @@
 import React from 'react';
 
-import { data, data2 } from '../../data.js';
-
 import TechnologyUsed from './TechnologyUsed';
 import Links from './Links.jsx';
+import OtherProjects from './OtherProjects.jsx';
 
 import styles from './projects.module.css';
-import OtherProjects from './OtherProjects.jsx';
+import { data, data2 } from '../../data.js';
 
 const Project = () => (
   <>
