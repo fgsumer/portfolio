@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './navbar.module.css';
 import styled from 'styled-components';
 
@@ -95,16 +95,21 @@ class NavBar extends Component {
             ></img>
 
             <ul className={`collapsed ${isExpanded ? 'is-expanded' : ''}`}>
-              <NavLink to="/aboutme">
+              <a href="#aboutme">
                 <li className={styles.li}>About Me</li>
-              </NavLink>
-              <NavLink to="/projects">
+              </a>
+              <a href="#projects">
                 <li className={styles.li}>My Projects</li>
-              </NavLink>
-              <NavLink to="/projects">
+              </a>
+              <a href="#projects">
                 <li className={styles.li}>Contact</li>
-              </NavLink>
-              <a href={resume} target="_blank" onClick={() => window.open(resume)}>
+              </a>
+              <a
+                href={resume}
+                target="_blank"
+                onClick={() => window.open(resume)}
+                rel="noopener noreferrer"
+              >
                 <li className={styles.li}>Resume</li>
               </a>
             </ul>
