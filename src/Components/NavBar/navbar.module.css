@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   height: 4rem;
+  background-color: none;
 }
 .logo {
   padding-top: 2rem;
@@ -37,10 +38,13 @@
 }
 @media only screen and (max-width: 600px) {
   .navigation {
+    background-color: #1a1c24;
+    opacity: 80%;
     height: auto;
     min-height: 40px;
     display: block;
-    position: relative;
+    position: fixed;
+    /* position: relative; */
     z-index: 5;
   }
   .menuItem {
