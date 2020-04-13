@@ -118,7 +118,8 @@ class NavBar extends Component {
         <Navigation className={this.state.show ? 'active' : 'hidden'}>
           <div className={styles.navigation}>
             <div className={styles.logo}>
-              <img style={{ height: '4rem' }} src="/images-icons/logo.png" alt="icon"></img>
+              <img style={{ height: '4rem' }} src="/images-icons/logo.png" alt="icon" />
+
               {/* <h1 style={{ fontFamily: 'Permanent Marker' }}>F S</h1> */}
             </div>
             <nav className={styles.nav}>
@@ -128,17 +129,19 @@ class NavBar extends Component {
                 onClick={e => this.handleToggle(e)}
                 src="/images-icons/menu.svg"
                 alt="icon"
-              ></img>
-
+              />
               <ul className={`collapsed ${isExpanded ? 'is-expanded' : ''}`}>
+                <a href="#home">
+                  <li className={styles.li}>Home</li>
+                </a>
                 <a href="#aboutme">
                   <li className={styles.li}>About Me</li>
                 </a>
                 <a href="#projects">
                   <li className={styles.li}>My Projects</li>
                 </a>
-                <a href="#projects">
-                  <li className={styles.li}>Contact</li>
+                <a href="#contactme">
+                  <li className={styles.li}>Contact Me</li>
                 </a>
                 <a
                   href={resume}

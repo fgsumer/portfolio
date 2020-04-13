@@ -7,13 +7,14 @@ import VerticalNavBar from '../NavBar/VerticalNavBar';
 import Projects from '../Projects/Projects';
 
 import styles from './landingpage.module.css';
+import ContactMe from '../ContactMe/ContactMe';
 // import Footer from '../Footer/Footer';
 
 function LandingPage() {
   return (
     <>
       {/* styles.ontainer for landing page */}
-      <div id={styles.ide} className={styles.container}>
+      <div id="home" className={styles.container}>
         <NavBar></NavBar>
         <div className={styles.container2}>
           <p className={styles.hi}>Hi,{'      '} my name is </p>
@@ -25,6 +26,7 @@ function LandingPage() {
         </div>
         <AboutMe></AboutMe>
         <Projects></Projects>
+        <ContactMe></ContactMe>
         {/*
          */}
         {/* <Footer></Footer> */}

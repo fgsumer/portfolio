@@ -9,7 +9,7 @@ import { data, data2 } from '../../data.js';
 
 const Project = () => (
   <>
-    <div className={styles.maincontainer}>
+    <div id="projects" className={styles.maincontainer}>
       <hr className={styles.hrText} data-content="Some Things I've built"></hr>
       {/* <h1>Some Things I've built</h1> */}
       {data.map((d, key) => (
