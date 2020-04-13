@@ -1,0 +1,33 @@
+.container {
+  height: 90vh;
+  padding-top: 12rem;
+  /* border: 2px solid pink; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.flexcontainer {
+  width: 50rem;
+}
+.h1 {
+  font-size: 3rem;
+}
+.p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.underline,
+.underline:visited,
+.underline:active {
+  font-size: 1.8rem;
+  background-image: linear-gradient(0deg, #c1403d 10%, transparent 30%);
+  color: #e8e8e9;
+  text-decoration: none;
+}
+.underline:hover {
+  cursor: pointer;
+}

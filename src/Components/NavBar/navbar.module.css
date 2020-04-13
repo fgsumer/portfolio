@@ -1,28 +1,30 @@
 .navigation {
-  background-color: #1a1c24;
-  opacity: 40%;
+  /* background-color: #1a1c24;
+  opacity: 40%; */
   position: fixed;
   width: 100%;
   z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
+  height: 4rem;
 }
 .logo {
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-left: 3rem;
   display: flex;
 }
+
 .menuItem {
   display: none;
   height: 3rem;
 }
 
 .li {
-  margin: 0 25px;
+  margin: 0 1rem;
+  padding: 0;
   justify-content: space-between;
-  font-size: 1em;
+  font-size: 1.1em;
   font-family: 'Montserrat', sans-serif;
 }
 
