@@ -38,7 +38,7 @@ const Navigation = styled.header`
     font-family: 'Merriweather', serif;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     a:hover:after {
       width: 7rem;
       left: 1rem;

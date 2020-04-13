@@ -6,28 +6,51 @@
   opacity: 0.95;
   width: 100%;
   height: 100vh;
-  /* padding: 0;
-  margin: 0; */
+
   color: #e8e8e9;
 }
 
 .container2 {
-  margin-left: 11rem;
   padding-top: 10rem;
-  /* margin-top: 10rem; */
   height: 60%;
 }
 
 .h1 {
-  font-size: 4rem;
   font-weight: bold;
   margin: 0;
   padding: 0;
 }
-.hi {
-  font-size: 1.5rem;
-  /* letter-spacing: 0.06rem; */
+
+@media only screen and (min-width: 300px) {
+  .container2 {
+    margin-left: 5rem;
+  }
+  .h1 {
+    font-size: 3rem;
+  }
+  .hi {
+    font-size: 1.1rem;
+  }
 }
-/* body {
-  background-color: #1a1c24;
-} */
+@media only screen and (min-width: 600px) {
+  .container2 {
+    margin-left: 8rem;
+  }
+  .h1 {
+    font-size: 3.5rem;
+  }
+  .hi {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .container2 {
+    margin-left: 11rem;
+  }
+  .h1 {
+    font-size: 4rem;
+  }
+  .hi {
+    font-size: 1.5rem;
+  }
+}

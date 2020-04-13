@@ -7,11 +7,26 @@
 
 .typewriter__type {
   font-family: 'Special elite', cursive;
-  font-size: 3rem;
 }
 
 .typewriter__cursor {
   width: 1px;
   background-color: #c1403d;
   /* background-color: #bd5432; */
+}
+
+@media only screen and (min-width: 300px) {
+  .typewriter__type {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .typewriter__type {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .typewriter__type {
+    font-size: 3rem;
+  }
 }

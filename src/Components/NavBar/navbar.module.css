@@ -22,21 +22,14 @@
 }
 
 .li {
-  margin: 0 1rem;
+  margin: 0.6rem;
   padding: 0;
   justify-content: space-between;
-  font-size: 1.1em;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 800px) {
-  /* padding: 0px; */
-  /* .logo {
-    padding-left: 15px;
-    padding-top: 0px !important;
-  } */
-}
-@media only screen and (max-width: 600px) {
   .navigation {
     background-color: #1a1c24;
     opacity: 80%;
@@ -53,6 +46,8 @@
     top: 1rem;
     right: 1rem;
     cursor: pointer;
+    font-size: 0.9rem;
+    color: red;
   }
   .logo {
     padding-top: 1rem;
