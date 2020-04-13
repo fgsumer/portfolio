@@ -8,7 +8,7 @@ import Projects from '../Projects/Projects';
 
 import styles from './landingpage.module.css';
 import ContactMe from '../ContactMe/ContactMe';
-// import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer';
 
 function LandingPage() {
   return (
@@ -19,7 +19,6 @@ function LandingPage() {
         <div className={styles.container2}>
           <p className={styles.hi}>Hi,{'      '} my name is </p>
           <h1 className={styles.h1}>Fatma Sümer</h1>
-          {/* <h3 className={styles.h3}> &#38; I love building things for the web.</h3> */}
           <br></br>
           <TypeWriter />
           <VerticalNavBar></VerticalNavBar>
@@ -27,9 +26,7 @@ function LandingPage() {
         <AboutMe></AboutMe>
         <Projects></Projects>
         <ContactMe></ContactMe>
-        {/*
-         */}
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     </>
   );

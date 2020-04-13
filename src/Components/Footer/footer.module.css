@@ -1,17 +1,22 @@
-.p1 {
-  color: red;
-}
-.footerContainer {
-  display: none;
-}
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) {
   .footerContainer {
+    align-content: center;
+    color: #c1403d;
     display: inline;
-    border: 3px solid blue;
+    font-family: 'special elite';
+    font-size: 1rem;
+    height: 5rem;
+    text-align: center;
     width: 100%;
   }
   .icon {
     height: 2rem;
+    margin: 0.5rem;
     text-align: center;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .icon {
+    display: none;
   }
 }

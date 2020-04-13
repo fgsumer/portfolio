@@ -10,9 +10,9 @@ function ContactMe() {
           I'm currently looking for opportunities, my inbox is always open whether for hiring me or
           just to talk. I'll answer your email!
         </p>
-        <h3 style={{ fontSize: '1.5rem' }}>
+        <h3 style={{ fontSize: '1rem' }}>
           <a href="mailto:fatmagsumer@gmail.com" className={styles.underline}>
-            Say Hi!
+            Let's get in touch!
           </a>
         </h3>
       </div>
