@@ -1,13 +1,12 @@
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 300px) {
   .footerContainer {
     align-content: center;
     color: #c1403d;
-    display: inline;
+    padding-left: 2rem;
     font-family: 'special elite';
     font-size: 1rem;
     height: 5rem;
     text-align: center;
-    width: 100%;
   }
   .icon {
     height: 2rem;
@@ -16,6 +15,9 @@
   }
 }
 @media only screen and (min-width: 600px) {
+  .footerContainer {
+    width: 90%;
+  }
   .icon {
     display: none;
   }

@@ -1,11 +1,12 @@
 .container {
+  /* border: 2px solid salmon; */
   height: 90vh;
-  padding-top: 12rem;
-  /* border: 2px solid pink; */
   display: flex;
   justify-content: center;
   align-content: center;
   text-align: center;
+  margin: 15rem 5rem 0 5rem;
+  padding-top: 3rem;
 }
 .flexcontainer {
   width: 50rem;
@@ -30,4 +31,48 @@
 }
 .underline:hover {
   cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) {
+  .h1 {
+    font-size: 2rem;
+  }
+  .p {
+    font-size: 1rem;
+    line-height: 1.7;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .underline,
+  .underline:visited,
+  .underline:active {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .h1 {
+    font-size: 2.2rem;
+  }
+  .p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+  .underline,
+  .underline:visited,
+  .underline:active {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .h1 {
+    font-size: 3rem;
+  }
+  .p {
+    font-size: 1.5rem;
+  }
+  .underline,
+  .underline:visited,
+  .underline:active {
+    font-size: 1.6rem;
+  }
 }

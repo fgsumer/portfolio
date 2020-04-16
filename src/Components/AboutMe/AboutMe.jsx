@@ -21,9 +21,7 @@ const AboutMe = () => (
           recently.
         </p>
       </div>
-      <div>
-        <img id="graysacele" className={styles.picture} src="./images-icons/IMG_6288.jpeg" alt="" />
-      </div>
+      <img id="graysacele" className={styles.picture} src="./images-icons/IMG_6288.jpeg" alt="" />
     </div>
   </div>
 );
