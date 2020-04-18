@@ -25,16 +25,14 @@ const Project = () => (
           <div className={styles.technology}>
             <TechnologyUsed data={d.technologyUsed}></TechnologyUsed>
           </div>
-          <div className={styles.projectLinks}>
+          <div id="linkid" className={styles.projectLinks}>
             <Links data={d.link}></Links>
           </div>
         </div>
       ))}
     </div>
 
-    <h1 style={{ textAlign: 'center', marginBottom: '4rem', fontFamily: 'Montserrat' }}>
-      Other Projects
-    </h1>
+    <h1 className={styles.h1}>Other Projects</h1>
     <div className={styles.flexContainer}>
       {data2.map((d, key) => (
         <OtherProjects key={key} data={d}></OtherProjects>

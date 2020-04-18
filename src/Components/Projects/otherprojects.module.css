@@ -27,3 +27,20 @@
   bottom: 8px;
   position: relative;
 }
+
+@media only screen and (min-width: 300px) {
+  .projectCard {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .projectCard {
+    font-size: 1rem;
+    /* width: 24rem; */
+  }
+}
+@media only screen and (min-width: 900px) {
+  .projectCard {
+    font-size: 1rem;
+  }
+}
