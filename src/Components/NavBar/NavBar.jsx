@@ -26,37 +26,39 @@ const Navigation = styled.header`
     width: 0;
   }
   a:hover:after {
-    width: 100%;
+    width: 80%;
     left: 0;
     cursor: pointer;
   }
   ul {
-    padding-right: 5rem;
+    padding-right: 3rem;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     list-style-type: none;
     font-family: 'Merriweather', serif;
   }
 
   @media only screen and (max-width: 800px) {
+    a {
+      margin: 0.5rem;
+    }
     a:hover:after {
-      width: 7rem;
-      left: 1rem;
+      width: 6rem;
     }
 
     ul.collapsed {
-      width: 100%;
+      width: 80%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
+      justify-content: flex-start;
+      flex-wrap: no-wrap;
       overflow: hidden;
       max-height: 0;
 
       &.is-expanded {
         overflow: hidden;
-        max-height: 20rem; /* approximate max height */
+        max-height: 30rem; /* approximate max height */
       }
     }
     .active {

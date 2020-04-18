@@ -22,11 +22,11 @@ function LandingPage() {
           <br></br>
           <TypeWriter />
           <VerticalNavBar></VerticalNavBar>
+          <AboutMe></AboutMe>
+          <Projects></Projects>
+          <ContactMe></ContactMe>
+          <Footer></Footer>
         </div>
-        <AboutMe></AboutMe>
-        <Projects></Projects>
-        <ContactMe></ContactMe>
-        <Footer></Footer>
       </div>
     </>
   );

@@ -37,7 +37,6 @@
     min-height: 40px;
     display: block;
     position: fixed;
-    /* position: relative; */
     z-index: 5;
   }
   .menuItem {
