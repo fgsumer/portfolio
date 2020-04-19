@@ -13,7 +13,7 @@ const Links = props => {
           </a>
         ) : (
           <a href={item[1]}>
-            <img className={styles.linkIcon} src="./images-icons/link.png" alt="" />
+            <img className={styles.linkIcon} src="./images-icons/link.png" alt="online link icon" />
           </a>
         ),
       )}

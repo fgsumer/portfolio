@@ -26,7 +26,7 @@ const Navigation = styled.header`
     width: 0;
   }
   a:hover:after {
-    width: 80%;
+    width: 95%;
     left: 0;
     cursor: pointer;
   }
