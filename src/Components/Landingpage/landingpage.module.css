@@ -3,6 +3,8 @@
   background: linear-gradient(to bottom, transparent, #1a1c24), url(/images-icons/typewriter2.jpg);
   background-position: center;
   background-size: cover;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+  filter: alpha(opacity=95);
   opacity: 0.95;
   width: 100%;
   height: 100vh;

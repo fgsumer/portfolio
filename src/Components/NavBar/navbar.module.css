@@ -1,6 +1,4 @@
 .navigation {
-  /* background-color: #1a1c24;
-  opacity: 40%; */
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -32,7 +30,9 @@
 @media only screen and (max-width: 800px) {
   .navigation {
     background-color: #1a1c24;
-    opacity: 80%;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);
+    opacity: 0.8;
     height: auto;
     min-height: 40px;
     display: block;
