@@ -173,8 +173,8 @@
   }
   .nameDescription {
     font-size: 0.6rem;
-    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1);
-    filter: alpha(opacity=1);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
     opacity: 1;
     padding-right: 0.8rem;
     grid-column: 5/ 11;
