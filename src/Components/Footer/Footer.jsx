@@ -13,15 +13,10 @@ function Footer() {
           >
             <img className={styles.icon} src="/images-icons/linkedin.svg" alt="linkedin icon" />
           </a>
-          <a href="https://github.com/fgsumer" target="_blank">
-            <img
-              className={styles.icon}
-              src="/images-icons/github.svg"
-              alt="github icon"
-              rel="noopener noreferrer"
-            />
+          <a href="https://github.com/fgsumer" target="_blank" rel="noopener noreferrer">
+            <img className={styles.icon} src="/images-icons/github.svg" alt="github icon" />
           </a>
-          <a href="https://twitter.com/fatmaagocen" target="_blank">
+          <a href="https://twitter.com/fatmaagocen" target="_blank" rel="noopener noreferrer">
             <img
               className={styles.icon}
               src="/images-icons/twitter.png"
@@ -29,7 +24,7 @@ function Footer() {
               rel="noopener noreferrer"
             />
           </a>
-          <a href="https://https://codepen.io/fsumer" target="_blank">
+          <a href="https://https://codepen.io/fsumer" target="_blank" rel="noopener noreferrer">
             <img
               className={styles.icon}
               src="/images-icons/codepen.svg"
