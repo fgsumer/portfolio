@@ -28,7 +28,7 @@
 
   .hrText:after {
     font-family: 'special elite';
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     content: attr(data-content);
     display: inline-block;
     padding-right: 1rem;
@@ -147,7 +147,7 @@
   }
   .hrText:after {
     line-height: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -159,7 +159,7 @@
     line-height: 3rem;
   }
   .hrText:before {
-    left: 24rem;
+    left: 27rem;
   }
   .h1 {
     font-size: 2.5rem;
@@ -259,7 +259,7 @@
     line-height: 1.5rem;
   }
   .hrText:before {
-    left: 33rem;
+    left: 37rem;
   }
 
   .flexContainer {
