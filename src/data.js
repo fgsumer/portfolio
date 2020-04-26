@@ -22,14 +22,13 @@ export const data = [
     },
   },
   {
-    name: 'Together',
-    description:
-      'Together is a showcase of my favourite typeface pairings from Google web fonts by using one of my favourite CSS effects, pure CSS parallax.',
-    projectPhoto: '/images-icons/together.png',
-    technologyUsed: ['HTML', 'CSS'],
+    name: 'Factually',
+    description: `This is the front-end application of team concrete-wow's project to tackle the spread of fake news about COVID-19. It is built in two days for the #EUvsVirus, Hackathon organized by the European Commission `,
+    projectPhoto: '/images-icons/factually.png',
+    technologyUsed: ['ReactJS', 'CSS'],
     link: {
       github: 'https://github.com/fgsumer/FontpairswithParallax',
-      live: 'https://fgsumer.github.io/FontpairswithParallax/',
+      live: 'https://factually.dev/',
     },
   },
 ];
@@ -51,6 +50,17 @@ export const data2 = [
     link: {
       github: 'https://github.com/fgsumer/JavaScript30',
       live: 'https://codepen.io/fsumer',
+    },
+  },
+
+  {
+    name: 'Together',
+    description:
+      'Together is a showcase of my favourite typeface pairings from Google web fonts by using one of my favourite CSS effects, pure CSS parallax.',
+    technologyUsed: ['HTML', 'CSS'],
+    link: {
+      github: 'https://github.com/fgsumer/FontpairswithParallax',
+      live: 'https://fgsumer.github.io/FontpairswithParallax/',
     },
   },
   // {
