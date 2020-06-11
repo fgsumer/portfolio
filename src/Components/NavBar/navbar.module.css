@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-  background-color: none;
+  background-image: linear-gradient(180deg, black, transparent);
 }
 .logo {
   padding-top: 2rem;
