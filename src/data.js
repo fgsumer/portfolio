@@ -4,7 +4,7 @@ export const data = [
     description:
       'GitPro is a web application by which especially new developers can create their portfolio with a resume and showcase their best works. It is a full- stack project built in teams of four.',
     projectPhoto: './images-icons/gitpro.png',
-    technologyUsed: ['MongoDB', 'Express', 'React', 'NodeJS'],
+    technologyUsed: ['MongoDB', 'React', 'NodeJS', 'CSS'],
     link: {
       github: 'https://github.com/fgsumer/GitPro',
       live: 'https://portfolio-d9052.firebaseapp.com/',
@@ -17,7 +17,7 @@ export const data = [
     projectPhoto: '/images-icons/bivakzone.png',
     technologyUsed: ['MongoDB', 'NodeJS', 'React', 'React Leaflet', 'OpenStreetMap'],
     link: {
-      github: 'https://github.com/fgsumer/Bivakzone',
+      github: 'https://github.com/fgsumer/Locate',
       live: 'https://bivakzone.herokuapp.com/',
     },
   },
@@ -72,33 +72,4 @@ export const data2 = [
       live: 'https://fgsumer.github.io/FontpairswithParallax/',
     },
   },
-  // {
-  //   name: 'parallax',
-  //   description:
-  //     'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-  //   technologyUsed: ['html', 'css'],
-  //   link: {
-  //     github: 'https://github.com/fgsumer/FontpairswithParallax',
-  //     live: 'https://fgsumer.github.io/FontpairswithParallax/',
-  //   },
-  // },
-  // {
-  //   name: 'tictactoe',
-  //   description:
-  //     'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-  //   technologyUsed: ['html', 'css'],
-  //   link: {
-  //     github: 'https://github.com/fgsumer/FontpairswithParallax',
-  //     live: 'https://fgsumer.github.io/FontpairswithParallax/',
-  //   },
-  // },
-  // {
-  //   name: 'parallax',
-  //   description:
-  //     'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-  //   technologyUsed: ['html', 'css'],
-  //   link: {
-  //     github: 'https://github.com/fgsumer/FontpairswithParallax',
-  //   },
-  // },
 ];

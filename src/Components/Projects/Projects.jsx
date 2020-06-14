@@ -10,8 +10,7 @@ import { data, data2 } from '../../data.js';
 const Project = () => (
   <>
     <div id="projects" className={styles.maincontainer}>
-      <hr className={styles.hrText} data-content="Projects I've contributed"></hr>
-      {/* <h1>Some Things I've built</h1> */}
+      <hr className={styles.hrText} data-content="Projects I've contributed to"></hr>
       {data.map((d, key) => (
         <div className={styles.project}>
           <div className={styles.nameDescription}>

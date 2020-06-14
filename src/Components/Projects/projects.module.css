@@ -123,7 +123,7 @@
   }
 
   .linkIcon {
-    height: 0.9rem;
+    height: 1.4rem;
     margin-left: 0.5rem;
     background-color: #1a1c24;
     border-radius: 50%;
@@ -140,9 +140,9 @@
     background: linear-gradient(to right, #b2b2b2, transparent);
     position: absolute;
     margin-left: 0;
-    left: 18rem;
+    left: 19rem;
     top: 50%;
-    width: 30%;
+    width: 20%;
     height: 2px;
   }
   .hrText:after {
@@ -159,7 +159,7 @@
     line-height: 3rem;
   }
   .hrText:before {
-    left: 27rem;
+    left: 29rem;
   }
   .h1 {
     font-size: 2.5rem;
@@ -242,7 +242,7 @@
   }
 
   .linkIcon {
-    height: 1.3rem;
+    height: 1.7rem;
     margin-left: 1rem;
   }
   .project:nth-of-type(even) .linkIcon {
@@ -259,7 +259,7 @@
     line-height: 1.5rem;
   }
   .hrText:before {
-    left: 37rem;
+    left: 41rem;
   }
 
   .flexContainer {
@@ -329,6 +329,6 @@
     padding-left: 0;
   }
   .linkIcon {
-    height: 1.6rem;
+    height: 2.1rem;
   }
 }
