@@ -6,7 +6,7 @@ export const data = [
     projectPhoto: './images-icons/gitpro.png',
     technologyUsed: ['MongoDB', 'React', 'NodeJS', 'CSS'],
     link: {
-      github: 'https://github.com/fgsumer/GitPro',
+      github: 'https://github.com/fgsumer/gitpro',
       live: 'https://portfolio-d9052.firebaseapp.com/',
     },
   },
@@ -17,7 +17,7 @@ export const data = [
     projectPhoto: '/images-icons/bivakzone.png',
     technologyUsed: ['MongoDB', 'NodeJS', 'React', 'React Leaflet', 'OpenStreetMap'],
     link: {
-      github: 'https://github.com/fgsumer/Locate',
+      github: 'https://github.com/fgsumer/locate',
       live: 'https://bivakzone.herokuapp.com/',
     },
   },
@@ -39,7 +39,7 @@ export const data2 = [
       'Part of the Complete JavaScript Course I completed, this project put JavaScript concepts from the section on DOM manipulation and events into practice.',
     technologyUsed: ['JavaScript', 'HTML', 'CSS'],
     link: {
-      github: 'https://github.com/fgsumer/Pig-Game',
+      github: 'https://github.com/fgsumer/pig-game',
     },
   },
   {
@@ -57,7 +57,7 @@ export const data2 = [
       "It's a collection of exercises to get inside JS built by following his 30 Day Vanilla JS Coding Challenge but with my own twist and tweaks of course. Live demos are on my codepen account.",
     technologyUsed: ['HTML', 'CSS', 'JavaScript'],
     link: {
-      github: 'https://github.com/fgsumer/JavaScript30',
+      github: 'https://github.com/fgsumer/javascript30',
       live: 'https://codepen.io/fsumer',
     },
   },
@@ -68,7 +68,7 @@ export const data2 = [
       'Together is a showcase of my favourite typeface pairings from Google web fonts by using one of my favourite CSS effects, pure CSS parallax.',
     technologyUsed: ['HTML', 'CSS'],
     link: {
-      github: 'https://github.com/fgsumer/FontpairswithParallax',
+      github: 'https://github.com/fgsumer/fontpairswithparallax',
       live: 'https://fgsumer.github.io/FontpairswithParallax/',
     },
   },
